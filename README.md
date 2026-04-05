@@ -1,42 +1,39 @@
-# Project Title
+**Welcome to your Credvin project** 
 
-## Introduction
-This project is designed to help you ...
+**About**
 
-## Setup Instructions
+View and Edit  your app on [Base44.com](http://Base44.com) 
 
-### Prerequisites
-- Ensure you have the following installed:
-  - [Node.js](https://nodejs.org/) (version x.x.x)
-  - [npm](https://www.npmjs.com/) (version x.x.x)
+This project contains everything you need to run your app locally.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/credvin/Credvin.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Credvin
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the application:
-   ```bash
-   npm start
-   ```
+**Edit the code in your local development environment**
 
-## Project Documentation
-- [Usage](#usage)
-- [Contributing](#contributing)
+Any change pushed to the repo will also be reflected in the Base44 Builder.
 
-### Usage
-Instructions on how to use the project...
+**Prerequisites:** 
 
-### Contributing
-Guidelines for contributing to this project...
+1. Clone the repository using the project's Git URL 
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Create an `.env.local` file and set the right environment variables
 
-### License
-Provide information about the license.
+```
+VITE_BASE44_APP_ID=your_app_id
+VITE_BASE44_APP_BASE_URL=your_backend_url
+
+e.g.
+VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
+VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+```
+
+Run the app: `npm run dev`
+
+**Publish your changes**
+
+Open [Base44.com](http://Base44.com) and click on Publish.
+
+**Docs & Support**
+
+Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+
+Support: [https://app.base44.com/support](https://app.base44.com/support)
